@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.auth.spring.boot.control.AuthControl,\
+  com.github.auth.spring.boot.service.impl.UserServiceImpl,\
+  com.github.auth.spring.boot.dao.UserDAO,\
+  com.github.auth.spring.boot.filter.JwtAuthTokenFilter,\
+  com.github.auth.spring.boot.config.SecurityConfig,\
+  com.github.auth.spring.boot.security.JwtAuthExceptionPoint
